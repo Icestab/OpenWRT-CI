@@ -1,6 +1,6 @@
 # OpenWRT-CI
 云编译OpenWRT固件
-
+红米AX6个人fork版本，删除编译配置文件其他型号，只保留AX6，删除用不到的插件和新增个人插件
 官方版：
 https://github.com/immortalwrt/immortalwrt.git
 
