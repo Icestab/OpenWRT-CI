@@ -57,7 +57,10 @@ UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
 UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main" "pkg"
-UPDATE_PACKAGE "luci-app-ssr-plus" "fw876/helloworld" "master"
+UPDATE_PACKAGE "luci-app-ssr-plus" "fw876/helloworld" "master" "pkg"
+UPDATE_PACKAGE "shadowsocks-libev" "fw876/helloworld" "master" "pkg"
+UPDATE_PACKAGE "shadowsocksr-libev" "fw876/helloworld" "master" "pkg"
+UPDATE_PACKAGE "dns2socks-rust" "fw876/helloworld" "master" "pkg"
 
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
