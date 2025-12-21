@@ -1,6 +1,21 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+echo ">>> 初始化环境"
+
+sudo -E apt -yqq update
+sudo -E apt -yqq full-upgrade
+sudo -E apt -yqq autoremove --purge
+sudo -E apt -yqq autoclean
+sudo -E apt -yqq clean
+sudo -E apt -yqq install dos2unix python3-netifaces libfuse-dev curl jq
+
+# 这里是build-scripts.immortalwrt.org的初始化脚本
+sudo bash -c 'bash <(curl -sL https://build-scripts.immortalwrt.org/init_build_environment.sh)'
+
+sudo -E systemctl daemon-reload
+sudo -E timedatectl set-timezone "Asia/Shanghai"
+
 #######################################
 # 一、固定配置（你以后只改这里）
 #######################################
