@@ -106,9 +106,6 @@ CONFIG_PACKAGE_openssl-util=y
 CONFIG_PACKAGE_proto-bonding=y
 CONFIG_PACKAGE_sfdisk=y
 CONFIG_PACKAGE_sgdisk=y
-<<<<<<< HEAD
 CONFIG_PACKAGE_usb-modeswitch=n
 CONFIG_PACKAGE_usbmuxd=n
 CONFIG_PACKAGE_usbutils=n
-=======
->>>>>>> upstream/main
