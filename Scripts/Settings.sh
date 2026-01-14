@@ -66,5 +66,5 @@ if [[ "${WRT_TARGET^^}" == *"QUALCOMMAX"* ]]; then
 		echo "qualcommax set up nowifi successfully!"
 	fi
 	#其他调整
-	echo "CONFIG_PACKAGE_kmod-usb-serial-qualcomm=y" >> ./.config
+	#echo "CONFIG_PACKAGE_kmod-usb-serial-qualcomm=y" >> ./.config
 fi
