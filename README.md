@@ -1,14 +1,8 @@
-# 高质量<免费>交流群
+# OpenWRT-CI 红米AX6个人fork版本
 
-点击链接加入群聊【IPQ技术讨论群】：https://qm.qq.com/q/v7nMhzB4oU
-该群为普通交流群。
+基于 [VIKINGYFY/OpenWRT-CI](https://github.com/VIKINGYFY/OpenWRT-CI)，精简为仅保留红米AX6 (IPQ807X) 设备。删除其他平台配置及定时任务，手动触发编译。
 
-# 高质量<付费>中转站
-
-点击链接加入群聊【LiBwrt-Ai学习】：https://qm.qq.com/q/HTa7OiWNCU
-该群为AI中转站群。
-
-# OpenWRT-CI
+# 源码
 
 官方版：
 
@@ -32,21 +26,11 @@ https://github.com/chenxin527/uboot-ipq60xx-nor-build.git
 
 https://github.com/1980490718/u-boot-2016.git
 
-联发科-全新版：
-
-https://github.com/VIKINGYFY/UBOOT-CI/releases
-
-联发科-官方版：
-
-https://drive.wrt.moe/uboot/mediatek
-
 # 固件简要说明
 
-固件每天早上5点自动编译。
+仅编译红米AX6 (IPQ807X) 固件，手动触发。
 
 固件信息里的时间为编译开始的时间，方便核对上游源码提交时间。
-
-MEDIATEK系列、QUALCOMMAX系列、ROCKCHIP系列、X86系列。
 
 # 目录简要说明
 
@@ -57,4 +41,4 @@ Scripts——自定义脚本
 Config——自定义配置
 
 #
-[![Stargazers over time](https://starchart.cc/VIKINGYFY/OpenWRT-CI.svg?variant=adaptive)](https://starchart.cc/VIKINGYFY/OpenWRT-CI)
+[![Stargazers over time](https://starchart.cc/Icestab/OpenWRT-CI.svg?variant=adaptive)](https://starchart.cc/Icestab/OpenWRT-CI)
