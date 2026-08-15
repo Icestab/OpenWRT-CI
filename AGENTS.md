@@ -45,6 +45,10 @@ An OpenWRT CI/CD build system that compiles custom firmware via GitHub Actions a
 - **CI env setup**: builds symlink `/mnt/build_wrt` to `$GITHUB_WORKSPACE/wrt` for disk space; requires `immortalwrt.org` init script.
 - **Line endings**: enforced as LF for `.txt` and `.sh` via `.gitattributes`.
 
+## Local build
+- This repo builds firmware via GitHub Actions (CI) only; there is no local build script in-tree.
+- For local/offline builds on Linux or WSL2, upstream provides a PySide6 GUI tool: https://github.com/VIKINGYFY/OWRT-Tools
+
 ## When adding a new target
 1. Add a new `Config/<PLATFORM>-WIFI-{YES/NO}.txt` with the appropriate `CONFIG_TARGET_*` settings.
 2. If it needs special Settings.sh logic, look for the platform detection patterns in that file.
