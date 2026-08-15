@@ -1,9 +1,10 @@
 #私有配置覆盖（本 fork 与上游 GENERAL.txt 的差异集中在此，便于合并）
-#补回上游已删除、但本 fork 需要的插件
+#本 fork 需要的插件
 CONFIG_PACKAGE_luci-app-mosdns=y
 CONFIG_PACKAGE_luci-app-microsocks=y
 CONFIG_PACKAGE_luci-app-vnstat2=y
 CONFIG_PACKAGE_luci-proto-wireguard=y
+CONFIG_PACKAGE_luci-app-ddns-go=y
 
 #去掉上游新增、但本 fork 不需要的插件
 CONFIG_PACKAGE_luci-app-gecoosac=n
