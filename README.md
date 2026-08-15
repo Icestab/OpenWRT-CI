@@ -22,6 +22,12 @@ https://github.com/chenxin527/uboot-qsdk12.5-build.git
 
 https://github.com/1980490718/u-boot-2016.git
 
+# 本地编译
+
+本地编译工具（PySide6 GUI，支持 Linux / WSL2）：
+
+https://github.com/VIKINGYFY/OWRT-Tools.git
+
 # 固件简要说明
 
 仅编译红米AX6 (IPQ807X) 固件，手动触发。
